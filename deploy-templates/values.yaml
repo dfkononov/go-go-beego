@@ -1,0 +1,17 @@
+name: go-go-beego
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: eks-core.aws.main.edp.projects.epam.com
+framework: beego
+
+database:
+  required: false
+
+
+ingress:
+  required: false
+
+image:
+  name: go-go-beego
+  version: latest
